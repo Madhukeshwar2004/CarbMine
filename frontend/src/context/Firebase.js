@@ -15,12 +15,13 @@ import { getStorage, ref, uploadBytes, getDownloadURL } from "firebase/storage";
 
 // Firebase configuration
 const firebaseConfig = {
-    apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
-    authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
-    projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
-    storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
-    messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
-    appId: process.env.REACT_APP_FIREBASE_APPID,
+    apiKey: "AIzaSyBvSE8-GUGBcXIn5sjdZSxDvyWZg_Z5Aqg",
+    authDomain: "carbmine-9f0ae.firebaseapp.com"    ,
+    projectId: "carbmine-9f0ae",
+    storageBucket: "carbmine-9f0ae.firebasestorage.app",
+    messagingSenderId: "650854924367",
+    appId: "1:650854924367:web:a77601d56f3aa94d18ea3a",
+    measurementId: "G-0WJ8Q2L558"
 };
 
 // Initialize Firebase
