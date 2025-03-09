@@ -11,7 +11,6 @@ const Home = () => {
   // Refs for hero elements
   const heroTextRef = useRef(null);
   const heroImgRef = useRef(null);
-  const heroImgBgRef = useRef(null);
 
   useEffect(() => {
     // Hero Section Animations on Page Load
